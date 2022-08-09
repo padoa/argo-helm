@@ -11762,6 +11762,28 @@ entries:
         - "[Feat]: Static token authentication secret and config"
     apiVersion: v2
     appVersion: v3.3.8
+    created: "2022-08-09T12:42:58.399793021Z"
+    description: A Helm chart for Argo Workflows
+    digest: 69839d3fb636e83014f2f7d1144c50c7413e59dcab3f99d061e5da9cf7ffde10
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: benjaminws
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - https://github.com/padoa/argo-helm/releases/download/argo-workflows-0.16.9/argo-workflows-0.16.9.tgz
+    version: 0.16.9
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Feat]: Static token authentication secret and config"
+    apiVersion: v2
+    appVersion: v3.3.8
     created: "2022-08-09T10:17:57.937795309Z"
     description: A Helm chart for Argo Workflows
     digest: 649da698a09af766dc264b8f5c85d493f19be0c06037df2ff333f96b26fce3bf
@@ -14869,4 +14891,4 @@ entries:
     urls:
     - argocd-notifications-1.0.0.tgz
     version: 1.0.0
-generated: "2022-08-09T10:17:57.94687553Z"
+generated: "2022-08-09T12:42:58.405369199Z"
